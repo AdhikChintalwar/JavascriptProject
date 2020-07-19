@@ -9,7 +9,7 @@
 
 <body>
     <form>
-    <input type="text"  placeholder="name" required><br><br>
+    <input type="text" id="text" onkeydown="return isNumber(event)" placeholder="name" required><br><br>
     <div id="gender">
     gender:
     <input type="radio" id="male" name="gender" value="male">
@@ -33,7 +33,7 @@
     <input type="url" id="url">
     <input type="submit" id="url"><br><br> 
     
-    </div>
+</div>
     <input type="date" id="date" required><br><br>
     <label for="email" > email address</label>
     <input type="email" id="email" required><br><br>
