@@ -23,6 +23,8 @@ function submit() {
 
 
 function select(){
+    $("#demo").children().empty();
+    $("li:empty").remove();
     let result= $("#dropdown").val()
     let filteredlist = list.filter(x=>x.gender==result);
     let i;
