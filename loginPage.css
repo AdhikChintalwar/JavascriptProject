@@ -1,0 +1,70 @@
+.body{
+     background-image: url("https://wallpapercave.com/wp/Xy5Nlwl.jpg"); 
+    background-repeat: no-repeat; 
+    background-color: #fecf6a;
+    background-size: 100%;
+}
+.labelcolor{
+    font-size: 25px;
+    color: rgb(0, 0, 20);
+    font-weight: bold;
+}
+
+button{
+    border-radius: 7px; 
+    width: 100px;
+    background-color: rgba(16, 39, 245, 0.432);
+    color: rgba(0, 0, 0, 0.945);
+    height: 30px;
+    font-weight: 600;
+
+}
+tr,td{
+    border: 1px solid black;
+}
+
+.HeaderLogin{
+    vertical-align: 10%;
+    font-size:  85px; 
+    color: rgba(2, 10, 88, 0.726);
+     font-style: oblique;
+     margin-bottom: 5%;
+     margin-top: 10%;
+     font-family:'piedra' , 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+table { 
+    
+    border: 1px solid black; 
+    /* border-collapse: collapse;   */
+    padding: 6px; 
+    text-align:center; 
+    border-radius: 5px;
+    background-color:rgba(134, 145, 241, 0.363);
+    border-collapse: initial;
+  
+    
+} 
+
+
+
+h1{
+    text-align: 60%; 
+    clear:left;  
+}
+table{
+    width: 500px;
+    height:200px;
+    border-top: 0px;
+    
+    font-family: 'monospace',Arial, Helvetica, sans-serif;
+}
+tr{
+    height: 40px;
+}
+
+input {
+  height: 20px;  
+  width: 90%;
+  background-color: rgba(67, 90, 141, 0.507);
+
+}

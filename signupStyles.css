@@ -1,0 +1,52 @@
+body{
+    background-image:url("http://www.goodwp.com/large/201102/15383.jpg");
+    background-size: 1366px 690px;
+    backdrop-filter: blur(1.5px);
+    
+}
+
+
+div{
+    color: lightsalmon;
+    font-size: 55px;
+    margin-bottom: 1px;
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 3%;
+    width: 50%;
+    height: 120%;
+   /* border:1px solid black;*/
+   
+    
+}
+tr,td{
+   padding: 5px;
+  /* border: 1px solid black;*/
+}
+tr{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+input{
+    width: 85%;
+    height: 23px;
+    background-color: rgba(160, 196, 125, 0.692);
+}
+ button {
+        border-radius: 4px;
+        background-color: rgb(68, 76, 76);
+        height: 40px;
+        width: 90px;
+    }
+label{
+    color: black;
+    column-width: 250px;
+   line-height: 40px;
+   font-size: 25px;
+   font-weight: bolder;
+}

@@ -1,0 +1,86 @@
+<!Doctype html>
+
+<head>
+    <title> signup</title>
+    <link href="./signupStyles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+   
+
+
+        <form>
+            <div class="header" style="text-align: center; color: rgba(20, 6, 141, 0.753);"> CREATE ACCOUNT</div>
+            <center>
+                <table class="table">
+                    <tr rowspan="2">
+                        <td style="width: 180px;">
+                            <label for="firstName">FIRST NAME :</label>
+                        </td>
+                        <td>
+                            <input minlength="5" maxlength="15" colspan="2" type="text" id="box" name="firstName">
+                        </td>
+                    <tr>
+                        <td>
+                            <label for="lastName">LAST NAME :</label>
+                        </td>
+
+                        <td>
+                            <input minlength="1" maxlength="8" type="text" id="box" name="lastName">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr rowspan="2">
+                        <td>
+                            <label for="dateOfBirth">DATE OF BIRTH :</label>
+                        </td>
+                        <td colspan="2">
+
+                            <input maxlength="10" minlength="2" type="number"  min="1" max="31" id="box" name="dateOfBirth">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr rowspan="2">
+                        <td>
+                            <label for="email">EMAIL ADDRESS:</label>
+                        </td>
+                        <td colspan="2">
+                            <input minlength="6" maxlength="16" type="email" id="box" name="email">
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <label for="gender">GENDER :</label>
+                        </td>
+                        <td colspan="2">
+                            <select style="width: 200px; height:25px ;background-color: rgba(160, 196, 125, 0.692);" id="gender" name="gender">
+                                <option value="male">MALE</option>
+                                <option value="female">FEMALE</option>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+                            <label for="password">PASSWORD :</label>
+                        </td>
+                        <td colspan="2">
+                            <input maxlength="9" minlength="5" type="password" id="box" name="password">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" rowspan="2" style="text-align: center; "><br>
+                            <span> <button type="submit" width="60px" height="40px"
+                                    style="color: rgb(255, 255, 255); background-color: rgba(8, 121, 87, 0.897);" value="SignUp">SIGN UP</button>
+                            </span>
+                        </td>
+
+                    </tr>
+                    <tr></tr>
+                </table>
+            </center>
+   
+    </form>
+
+</body>
